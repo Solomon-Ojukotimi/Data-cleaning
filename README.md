@@ -1,2 +1,2 @@
 # Data-cleaning-On-Sql
-This is a basic  project to clean and organise data of layoffs across the word using sql
+In this project i utilized various data maniplulation techniques in clesning data of layoffs among major companies and organizations around the world, this cleaning will help to setup the foundation to launch exploratory data analysis of the data
