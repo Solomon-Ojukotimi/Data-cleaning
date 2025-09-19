@@ -1,6 +1,9 @@
 # Data-cleaning/EDA-On-Sql
-In the first part of this project i utilized various data maniplulation techniques in clesning data of layoffs among major companies and organizations around the world, this cleaning will help to setup the foundation to launch exploratory data analysis of the data
-THen i went  a step further and perform a basic EDA,utilizing sql to query a database to answer basic question for surfacial analysis and understanding of layoffs among companies over the world ranging from 11/03/2020 to 6/03/2023.
+In the first part of this project i utilized various data maniplulation techniques in clesning data of layoffs among major companies and organizations around the world, this cleaning will help to setup the foundation to launch exploratory data analysis of the data. Attached to this readme is the sql scirpt detailing how i did this
+
+Then i went  a step further and perform a basic EDA,utilizing sql to query a database to answer basic question for surfacial analysis and understanding of layoffs among companies over 
+the world ranging from 11/03/2020 to 6/03/2023. Attached to this read.me is SQL script descriptive of the codes written to accomplish all these
+
 **Questions answered by this sql script includes;**
 1.Companies with most and least layoffs
 2. Industries most affected and least affected by layoffs 
@@ -14,4 +17,5 @@ THen i went  a step further and perform a basic EDA,utilizing sql to query a dat
 4. Even with a funding in the trillions post IPO companies layoff the most people on average, followed closely by series J companies even tho their funding aren't that impressive they layoff second most, which is understandable considering these are the biggest companies and they set a higher standard(more competitive), more employees and are therefore more likely to layoff people.Not surprising too, Companies at the seed stage retained more employees are and considering where they are at in their development, their fundings is quite meager too(less pay, less competition, they can't afford to lose talent too much)
 5. Layoffs was at an all-time high mid 2020 (not shocking considering how trying that year was for companies, with the world dealing with COVID-19 and how to live with it), which pewtered out Abit in the early 2020s and rose again through 2022(the recession period), and it continued rising through 2023 till the end of these dataset....
 6. Went Abit further to rank companies according to how much they laid off per year,Uber took the greatest hit in 2020 with a huge number of 7525 laid off, Bytedance lead with a 3600 laid off in 2021, and Google had it worst in 2023 with about 12,000 laid off.
+   
 **Conclusion:** This is basic analysis with SQL , doesn't tell the full story but some insight can be glimpsed from it before being taken to the visualization stage.
