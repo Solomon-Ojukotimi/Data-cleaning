@@ -1,2 +1,17 @@
-# Data-cleaning-On-Sql
-In this project i utilized various data maniplulation techniques in clesning data of layoffs among major companies and organizations around the world, this cleaning will help to setup the foundation to launch exploratory data analysis of the data
+# Data-cleaning/EDA-On-Sql
+In the first part of this project i utilized various data maniplulation techniques in clesning data of layoffs among major companies and organizations around the world, this cleaning will help to setup the foundation to launch exploratory data analysis of the data
+THen i went  a step further and perform a basic EDA,utilizing sql to query a database to answer basic question for surfacial analysis and understanding of layoffs among companies over the world ranging from 11/03/2020 to 6/03/2023.
+**Questions answered by this sql script includes;**
+1.Companies with most and least layoffs
+2. Industries most affected and least affected by layoffs 
+3. Regions that experienced most/least layoffs
+4. Impact of funding on layoffs in accordance to the stage the companies are in
+5.Trends of layoffs over time....
+**Insights(Ask and it shall be answered)...**
+1. Answering the first question; company with the most layoff in this dataset is  Amazon with a whopping number of 18150 layoffs, followed by Google and Meta, which is a no brainer given they are humongous organization, with hundred of thousands of employess.
+2. Manufacturing industries are the least affected by layoffs,(hope for the working man), followed closely by products and Human Resources, all of which are industries heavily reliant on human input,interaction or easily adaptable to cope with the great recession of the 2020s, while on the other end of the spectrum, we have; Hardware, consumer, Fitness industries taking the most layoffs hit, the recent growth in automation and the rise  of online purchase and market is what I suspect to be a contributing factor to these
+3. United States leads the line as the country most affected by layoffs around the world, with a whopping 1231 companies affected and a huge number of 256,474 people laid off, this is not shocking as the US houses most of the biggest companies in the world and home to some of the largest organizations with a huge number or workforce.(It's a numbers game)
+4. Even with a funding in the trillions post IPO companies layoff the most people on average, followed closely by series J companies even tho their funding aren't that impressive they layoff second most, which is understandable considering these are the biggest companies and they set a higher standard(more competitive), more employees and are therefore more likely to layoff people.Not surprising too, Companies at the seed stage retained more employees are and considering where they are at in their development, their fundings is quite meager too(less pay, less competition, they can't afford to lose talent too much)
+5. Layoffs was at an all-time high mid 2020 (not shocking considering how trying that year was for companies, with the world dealing with COVID-19 and how to live with it), which pewtered out Abit in the early 2020s and rose again through 2022(the recession period), and it continued rising through 2023 till the end of these dataset....
+6. Went Abit further to rank companies according to how much they laid off per year,Uber took the greatest hit in 2020 with a huge number of 7525 laid off, Bytedance lead with a 3600 laid off in 2021, and Google had it worst in 2023 with about 12,000 laid off.
+**Conclusion:** This is basic analysis with SQL , doesn't tell the full story but some insight can be glimpsed from it before being taken to the visualization stage.
