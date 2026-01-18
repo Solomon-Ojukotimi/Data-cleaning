@@ -1,21 +1,90 @@
-# Data-cleaning/EDA-On-Sql
-In the first part of this project i utilized various data maniplulation techniques in clesning data of layoffs among major companies and organizations around the world, this cleaning will help to setup the foundation to launch exploratory data analysis of the data. Attached to this readme is the sql scirpt detailing how i did this
+# Data Cleaning and Exploratory Data Analysis (EDA) on Global Layoffs (SQL)
 
-Then i went  a step further and perform a basic EDA,utilizing sql to query a database to answer basic question for surfacial analysis and understanding of layoffs among companies over 
-the world ranging from 11/03/2020 to 6/03/2023. Attached to this read.me is SQL script descriptive of the codes written to accomplish all these
+## Overview
+This project performs end-to-end **data cleaning** and **exploratory data analysis (EDA)** on a global layoffs dataset using **SQL**.  
+The analysis covers layoffs across companies, industries, regions, and funding stages between **2020-03-11 and 2023-03-06**.
 
-**Questions answered by this sql script includes;**
-1.Companies with most and least layoffs
-2. Industries most affected and least affected by layoffs 
-3. Regions that experienced most/least layoffs
-4. Impact of funding on layoffs in accordance to the stage the companies are in
-5.Trends of layoffs over time....
-**Insights(Ask and it shall be answered)...**
-1. Answering the first question; company with the most layoff in this dataset is  Amazon with a whopping number of 18150 layoffs, followed by Google and Meta, which is a no brainer given they are humongous organization, with hundred of thousands of employess.
-2. Manufacturing industries are the least affected by layoffs,(hope for the working man), followed closely by products and Human Resources, all of which are industries heavily reliant on human input,interaction or easily adaptable to cope with the great recession of the 2020s, while on the other end of the spectrum, we have; Hardware, consumer, Fitness industries taking the most layoffs hit, the recent growth in automation and the rise  of online purchase and market is what I suspect to be a contributing factor to these
-3. United States leads the line as the country most affected by layoffs around the world, with a whopping 1231 companies affected and a huge number of 256,474 people laid off, this is not shocking as the US houses most of the biggest companies in the world and home to some of the largest organizations with a huge number or workforce.(It's a numbers game)
-4. Even with a funding in the trillions post IPO companies layoff the most people on average, followed closely by series J companies even tho their funding aren't that impressive they layoff second most, which is understandable considering these are the biggest companies and they set a higher standard(more competitive), more employees and are therefore more likely to layoff people.Not surprising too, Companies at the seed stage retained more employees are and considering where they are at in their development, their fundings is quite meager too(less pay, less competition, they can't afford to lose talent too much)
-5. Layoffs was at an all-time high mid 2020 (not shocking considering how trying that year was for companies, with the world dealing with COVID-19 and how to live with it), which pewtered out Abit in the early 2020s and rose again through 2022(the recession period), and it continued rising through 2023 till the end of these dataset....
-6. Went Abit further to rank companies according to how much they laid off per year,Uber took the greatest hit in 2020 with a huge number of 7525 laid off, Bytedance lead with a 3600 laid off in 2021, and Google had it worst in 2023 with about 12,000 laid off.
-   
-**Conclusion:** This is basic analysis with SQL , doesn't tell the full story but some insight can be glimpsed from it before being taken to the visualization stage.
+All transformations and analyses were executed using SQL scripts included in this repository.
+
+---
+
+## Dataset
+- **Time range:** 2020-03-11 → 2023-03-06
+- **Scope:** Global companies
+- **Key fields:**
+  - company
+  - industry
+  - country / region
+  - total_laid_off
+  - funding_stage
+  - date
+
+---
+
+## Tools
+- SQL (data cleaning, transformation, analysis)
+
+
+---
+
+## Data Cleaning
+The following steps were applied to prepare the dataset:
+- Remove duplicates
+- Handle missing and null values
+- Standardize company and industry names
+- Normalize date formats
+- Validate numeric fields
+
+This step ensures consistency and reliability for analysis.
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+### Questions Answered
+1. Companies with the most and least layoffs
+2. Industries most and least affected by layoffs
+3. Regions with the highest and lowest layoffs
+4. Relationship between funding stage and layoffs
+5. Layoff trends over time
+6. Yearly ranking of companies by total layoffs
+
+---
+
+## Key Insights
+
+### Companies
+- **Amazon** recorded the highest layoffs (**18,150**), followed by **Google** and **Meta**.
+- Large-scale organizations were disproportionately affected due to workforce size.
+
+### Industries
+- **Manufacturing** experienced the fewest layoffs.
+- **Hardware, Consumer, and Fitness** industries recorded the highest layoffs.
+- Increased automation and e-commerce adoption may be contributing factors.
+
+### Regions
+- The **United States** was the most affected region:
+  - 1,231 companies impacted
+  - 256,474 total layoffs
+
+### Funding Stage
+- **Post-IPO companies** laid off the most employees on average.
+- **Series J** companies followed closely.
+- **Seed-stage companies** showed higher employee retention, likely due to smaller team sizes and limited funding.
+
+### Time Trends
+- Layoffs peaked in mid-2020 (COVID-19 impact).
+- A second surge occurred in 2022 during the global recession.
+- Layoffs continued to rise into early 2023.
+
+### Yearly Company Leaders
+- **2020:** Uber (7,525 layoffs)
+- **2021:** ByteDance (3,600 layoffs)
+- **2023:** Google (~12,000 layoffs)
+
+---
+
+## Conclusion
+This project demonstrates how **SQL can be used for structured data cleaning and analytical exploration**.  
+While the analysis provides high-level insights, further visualization would improve interpretability and communication of trends.
+
